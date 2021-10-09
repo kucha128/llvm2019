@@ -74,22 +74,32 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Platformx64\Toolset.props">
+    <Content Include="Platformx64\llvm\Toolset.props">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>MSBuild</InstallRoot>
       <VSIXSubPath>Microsoft\VC\v160\Platforms\x64\PlatformToolsets\llvm</VSIXSubPath>
     </Content>
-    <Content Include="Platformx64\Toolset.targets">
+    <Content Include="Platformx64\llvm\Toolset.targets">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>MSBuild</InstallRoot>
       <VSIXSubPath>Microsoft\VC\v160\Platforms\x64\PlatformToolsets\llvm</VSIXSubPath>
     </Content>
-    <Content Include="Platformx86\Toolset.props">
+    <Content Include="Platformx64\WindowsKernelModeDriver10.0_LLVM\Toolset.props">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <InstallRoot>MSBuild</InstallRoot>
+      <VSIXSubPath>Microsoft\VC\v160\Platforms\x64\PlatformToolsets\WindowsKernelModeDriver10.0_LLVM</VSIXSubPath>
+    </Content>
+    <Content Include="Platformx64\WindowsKernelModeDriver10.0_LLVM\Toolset.targets">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <InstallRoot>MSBuild</InstallRoot>
+      <VSIXSubPath>Microsoft\VC\v160\Platforms\x64\PlatformToolsets\WindowsKernelModeDriver10.0_LLVM</VSIXSubPath>
+    </Content>
+    <Content Include="Platformx86\llvm\Toolset.props">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>MSBuild</InstallRoot>
       <VSIXSubPath>Microsoft\VC\v160\Platforms\Win32\PlatformToolsets\llvm</VSIXSubPath>
     </Content>
-    <Content Include="Platformx86\Toolset.targets">
+    <Content Include="Platformx86\llvm\Toolset.targets">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>MSBuild</InstallRoot>
       <VSIXSubPath>Microsoft\VC\v160\Platforms\Win32\PlatformToolsets\llvm</VSIXSubPath>
